@@ -11,7 +11,7 @@ This script is written specifically for the maximum problem below, which was tra
 investment problem:
 
 max f(x)= x1 + x2^2
-constraint to:
+subject to:
 1) 3*x1+2*x2<=9
 2) x[i] >=0 (i=1,2)
 
