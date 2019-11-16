@@ -3,6 +3,18 @@ Created on 2019年11月14日
 
 A python script for investment homework in non-linear problems.
 
+Among methods below, using_scipy() is a method using Scipy.optimize.minimize. The other two methods 
+which are exhaustion_search_1() and exhaustion_search_2() is a simple implementation with intention 
+to solve the maximize problem using exhaustion search and implemented originally.
+
+This script is written specifically for the maximum problem below, which was transformed from an 
+investment problem:
+
+max f(x)= x1 + x2^2
+constraint to:
+1) 3*x1+2*x2<=9
+2) x[i] >=0 (i=1,2)
+
 @author: Benjamin_L
 '''
 
