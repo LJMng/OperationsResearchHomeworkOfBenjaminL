@@ -1,7 +1,11 @@
 '''
 Created on 2019年11月27日
 
+<<<<<<< HEAD
 @author: Benjamin_L
+=======
+@author: HP
+>>>>>>> ba20bb72b88efe392589dc2773ebe37d4b768061
 '''
 
 import numpy as np
