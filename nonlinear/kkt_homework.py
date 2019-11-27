@@ -13,7 +13,7 @@ def init_x():
     x2 = list(np.arange(-5, 50, 0.5))
     x3 = list(np.arange(0, 50, 0.5))
     
-    constaints_func = lambda x: x[0]**2 - x[1]**2 + 4*(x[2]**3) <=10 and\
+    constaints_func = lambda x: x[0]**2 - x[1]**2 + (x[2]**3) <=10 and\
                                 x[0]**3 + x[1]**2 + 4*(x[2]**3) >=20
     
     for v1 in x1:
